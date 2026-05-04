@@ -1,0 +1,25 @@
+---
+title: ""
+output:
+  html_document:
+    toc: true
+    toc_depth: 3
+    theme: null
+    css: brand_styles.css
+    includes:
+      before_body: before_body.html
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = FALSE,
+  warning = FALSE,
+  message = FALSE,
+  fig.align = "center"
+)
+
+library(dplyr)
+library(ggplot2)
+library(knitr)
+library(kableExtra)
+```
